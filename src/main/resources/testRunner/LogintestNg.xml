@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="jambalakate jaru metai" verbose="1" parallel="methods" thread-count="2">
+    <test name="nopackage">
+        <classes>
+            <class name="org.example.realTimeTesting.WebSiteLoginTest"/>
+        </classes>
+    </test>
+
+</suite>
